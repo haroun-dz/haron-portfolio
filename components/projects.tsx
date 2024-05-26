@@ -24,22 +24,7 @@ export default function Projects() {
     >
       <SectionHeading> Projets </SectionHeading>
       <Carousel
-        opts={{
-          align: "start",
-          breakpoints: {
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 32,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
-          },
-          loop: true,
-          slidesPerView: 1,
-          spaceBetween: 24,
-        }}
+
         className=" justify-center items-center overflow-x-hidden"
       >
         <CarouselContent className=" max-w-full">
