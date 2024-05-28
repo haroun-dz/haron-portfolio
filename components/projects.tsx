@@ -23,10 +23,7 @@ export default function Projects() {
       className="scroll-mt-28 mb-28 overflow-hidden max-w-[100vw]"
     >
       <SectionHeading> Projets </SectionHeading>
-      <Carousel
-
-        className=" justify-center items-center overflow-x-hidden"
-      >
+      <Carousel className=" justify-center items-center overflow-x-hidden">
         <CarouselContent className=" max-w-full">
           {projectsData.map((project, index) => (
             <CarouselItem
