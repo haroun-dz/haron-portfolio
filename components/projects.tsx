@@ -21,10 +21,10 @@ export default function Projects({ data, heading }: any) {
     <section
       ref={ref}
       id="projects"
-      className="scroll-mt-28 mb-28 overflow-hidden max-w-[100vw]"
+      className="scroll-mt-28 mb-28  max-w-[100vw] w-full"
     >
       <SectionHeading> {heading}</SectionHeading>
-      <Carousel className=" justify-center items-center overflow-x-hidden">
+      <Carousel className=" justify-center items-center ">
         <CarouselContent className=" max-w-full">
           {data.map((project: any, index: number) => (
             <CarouselItem

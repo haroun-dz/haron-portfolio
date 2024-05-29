@@ -2,10 +2,12 @@ import React from "react";
 import { LuEggFried, LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/hero.png";
 import dera from "@/public/dera.png";
-import ATTESTATIONaichouche1 from "@/public/attestations/ATTESTATION.-aichouche 1.png";
-import ATTESTATIONaichouche2 from "@/public/attestations/ATTESTATION.-aichouche 2.png";
-import ATTESTATIONaichouche3 from "@/public/attestations/ATTESTATION.-aichouche 3.png";
-import ATTESTATIONaichouche4 from "@/public/attestations/ATTESTATION.-aichouche 4.png";
+import {
+  ATTESTATIONaichouche1,
+  ATTESTATIONaichouche2,
+  ATTESTATIONaichouche3,
+  ATTESTATIONaichouche4,
+} from "@/lib/utils";
 
 export const links = [
   {
@@ -193,12 +195,12 @@ export const formatorData = [
     title:
       "Formation de 1 semaine pour le compte de la société ROUIBA ECLAIRAGE",
     projects: [
-      "THEME : Formation sur le DTR-C2-47 RNV 2013 Pour des Ossature Métallique spéciale ",
-      "Etude d’un mat de drapeau",
-      "Panneau solaire posé sur un bâtiment",
-      "Toiture isolée à un versant [parking solaire]",
-      "MAT à grand hauteur",
-      "MAT de diffusion à grande hauteur",
+      "- THEME : Formation sur le DTR-C2-47 RNV 2013 Pour des Ossature Métallique spéciale ",
+      "- Etude d’un mat de drapeau",
+      "- Panneau solaire posé sur un bâtiment",
+      "- Toiture isolée à un versant [parking solaire]",
+      "- MAT à grand hauteur",
+      "- MAT de diffusion à grande hauteur",
       "",
     ],
 
@@ -215,6 +217,75 @@ export const formatorData = [
       " - Etude d’une structure en treilles",
       " - Etude d’une structure en PRS et profilées légers",
       " - Etudes des escaliers",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title:
+      "Formation de 1 semaine pour le compte de la société COSIDER CANALISATION BUREAU D‘ETUDE OULED FAYET",
+    projects: [
+      "THEME : Formation le ROBOT STRUCUTRE ANALYSIS sur des structure suivante ",
+      " - Etude d’un hangar",
+      " - Etude d’un bâtiment habitation en CM R+5",
+      " ",
+      " ",
+      " ",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title:
+      "Formation de 10 semaines pour le compte de la société COSIDER CANALISATION",
+    projects: [
+      "THEME : Logiciel ROBOT STRUCTURE ANALYSES en Béton et Charpente métallique ",
+      " - Etude d’un hangar ",
+      " - Etude d’un bâtiment habitation en CM R+5",
+      " - Etude d’un bâtiment habitation en BA R+5",
+      "  ",
+      " ",
+      " ",
+      " ",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title:
+      "Formation de 4 semaines pour le compte de la société COSIDER CANALISATION Pole C06 Hassi R’mel",
+    projects: [
+      "THEME : Logiciel TEKLA STRUCTURE en Charpente métallique. ",
+      " - TEKLA MODELISATION 3D",
+      " - TEKLA DESSIN 2D",
+      " - ATELIER DE MODELISATION ET DE DESSIN",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title:
+      "Formation de 1 semaine pour le compte de la société BATIMETAL CHARPENTE CENTRE",
+    projects: [
+      "THEME : Formation avancé sur le ROBOT STRUCUTRE ANALYSIS sur des structure suivante. ",
+      " - Etude d’un hangar ",
+      " - Etude d’un bâtiment habitation en CM R+5",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Formation de 3 semaines pour le compte de la société INFRAFER",
+    projects: [
+      "THEME : Logiciel ROBOT STRUCTURE ANALYSES en Béton et Charpente métallique. ",
+      " - Etude d’un bâtiment habitation en BA R+5",
+      " - Etude d’une charpente métallique (hangar)",
+      " - Etude de diverse structure spéciale (mur de soutènement, poutre précontrainte....)",
     ],
 
     adress: "",

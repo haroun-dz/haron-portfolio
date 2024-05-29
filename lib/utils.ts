@@ -1,6 +1,11 @@
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+import ATTESTATIONaichouche1 from "@/public/attestations/ATTESTATION.-aichouche 1.png";
+import ATTESTATIONaichouche2 from "@/public/attestations/ATTESTATION.-aichouche 2.png";
+import ATTESTATIONaichouche3 from "@/public/attestations/ATTESTATION.-aichouche 3.png";
+import ATTESTATIONaichouche4 from "@/public/attestations/ATTESTATION.-aichouche 4.png";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -30,4 +35,11 @@ export const getErrorMessage = (error: unknown): string => {
   }
 
   return message;
+};
+
+export {
+  ATTESTATIONaichouche1,
+  ATTESTATIONaichouche2,
+  ATTESTATIONaichouche3,
+  ATTESTATIONaichouche4,
 };

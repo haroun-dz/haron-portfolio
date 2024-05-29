@@ -27,13 +27,15 @@ export default function Project({
       ref={ref}
       className="mx-auto bg-gray-100 max-w-[24rem] sm:max-w-[42rem] flex  min-h-[25rem] border border-black/5 rounded-lg overflow-hidden hover:scale-105   relative  hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
     >
-      <div className="py-28 sm:py-4 px-5 sm:pl-10  sm:pt-10   shrink-1 sm:max-w-[50%] flex flex-col justify-between min-h-[25rem] h-full   sm:group-even:ml-[18rem] ">
+      <div className="py-28 sm:py-4 px-5 sm:pl-10  sm:pt-10   flex flex-col justify-between min-h-[25rem] h-full   sm:group-even:ml-[18rem] ">
         <h3 className="text-2xl font-semibold">{title}</h3>
-        {projects.map((project, index) => (
-          <p key={index} className="mt-2">
-            {project}
-          </p>
-        ))}
+        <div>
+          {projects.map((project, index) => (
+            <p key={index} className="mt-2">
+              {project}
+            </p>
+          ))}
+        </div>
 
         <p>{adress}</p>
       </div>
