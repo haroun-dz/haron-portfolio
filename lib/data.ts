@@ -147,6 +147,38 @@ export const projectsData = [
     adress: "ZONE . D'ACTIVITÉ. DÉPOT BAGHAI. KHENCHELA LOT N° 25+26",
   },
   {
+    title: " مزارع الروبيان_الغذاء الفاخر",
+
+    projects: ["مبنى هنجر مشروع مزارع الروبيان_الغذاء الفاخر : Projet 1"],
+    imageUrl: dera,
+    adress: "في مستورة المملكة العربية السعودية",
+    dir: "rtl",
+  },
+  {
+    title: " RESIDENCE NARCISSE",
+
+    projects: ["Projet : Résidence en sous-sol , rdc + 9"],
+    imageUrl: dera,
+    adress: "08, rue des freres merakchi,belouizdad",
+  },
+  {
+    title: " BANQUE AL BARAKA",
+
+    projects: ["Projet : : Résidence en entre-sol , rdc + 7"],
+    imageUrl: dera,
+    adress: "n° 13 rue djabali rabah belouizdad",
+  },
+  {
+    title: "SAKEN IMMOBILIERE",
+
+    projects: [
+      "Projet 1 : RESIDENCE DOHA 1 2sous sol/ rdc+6+attique Bloc central piscine",
+      "Projet 2 : RESIDENCE DOHA 2 2sous sol/ rdc+6+attique",
+    ],
+    imageUrl: dera,
+    adress: "dit verte rive commune de bordj el-kiffan, wilaya d'alger",
+  },
+  {
     title: " D.E.P KHENCHELA",
 
     projects: [
@@ -154,6 +186,39 @@ export const projectsData = [
     ],
     imageUrl: dera,
     adress: "Commune de KHENCHELA",
+  },
+] as const;
+export const formatorData = [
+  {
+    title:
+      "Formation de 1 semaine pour le compte de la société ROUIBA ECLAIRAGE",
+    projects: [
+      "THEME : Formation sur le DTR-C2-47 RNV 2013 Pour des Ossature Métallique spéciale ",
+      "Etude d’un mat de drapeau",
+      "Panneau solaire posé sur un bâtiment",
+      "Toiture isolée à un versant [parking solaire]",
+      "MAT à grand hauteur",
+      "MAT de diffusion à grande hauteur",
+      "",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Formation de 12 Jours pour le compte de la société GCB DCM",
+    projects: [
+      "THEME : Formation avancé sur le ROBOT STRUCUTRE ANALYSIS sur des structure suivante ",
+      " - Etude d’un hangar avec mezzanine",
+      " - Etude d’un pont roulant",
+      " - Etude d’un bâtiment habitation en CM R+5",
+      " - Etude d’une structure en treilles",
+      " - Etude d’une structure en PRS et profilées légers",
+      " - Etudes des escaliers",
+    ],
+
+    adress: "",
+    imageUrl: corpcommentImg,
   },
 ] as const;
 

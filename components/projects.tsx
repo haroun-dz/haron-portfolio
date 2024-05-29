@@ -12,8 +12,9 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+type ProjectProps = (typeof projectsData)[number];
 
-export default function Projects() {
+export default function Projects({ data, heading }: any) {
   const { ref } = useSectionInView("Projects", 0.5);
 
   return (
@@ -22,10 +23,10 @@ export default function Projects() {
       id="projects"
       className="scroll-mt-28 mb-28 overflow-hidden max-w-[100vw]"
     >
-      <SectionHeading> Projets </SectionHeading>
+      <SectionHeading> {heading}</SectionHeading>
       <Carousel className=" justify-center items-center overflow-x-hidden">
         <CarouselContent className=" max-w-full">
-          {projectsData.map((project, index) => (
+          {data.map((project: any, index: number) => (
             <CarouselItem
               className="  basis-auto lg:basis-1/2 pl-10 flex items-center justify-center "
               key={index}

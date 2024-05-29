@@ -4,21 +4,22 @@ import Companies from "@/components/companies";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
-import MaxWidthWraper from "@/components/maxWidthWraper";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import { formatorData, projectsData } from "@/lib/data";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <Intro />
-      <SectionDivider />
       <About />
       <Companies />
       <Skills />
+      <SectionDivider />
       <Experience />
-      <Projects />
+      <Projects heading={"Projucts"} data={projectsData} />
+      <Projects heading={"FORMATEUR/CONSULTANT"} data={formatorData} />
 
       <Atestation />
       <Contact />
