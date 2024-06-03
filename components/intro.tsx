@@ -2,7 +2,12 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { BsArrowRight, BsFilePdf, BsLinkedin } from "react-icons/bs";
+import {
+  BsArrowRight,
+  BsFacebook,
+  BsFilePdf,
+  BsLinkedin,
+} from "react-icons/bs";
 import { FaPhone } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -21,8 +26,8 @@ export default function Intro() {
     >
       <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
         <AniamtedText text="Bonjour," delay={0.3}></AniamtedText>
-        je suis <AniamtedText text="Haroun," delay={0.6}></AniamtedText>
-        Ingénieur & Formateur en génie civil
+        C’est <AniamtedText text="Haroune ," delay={0.6}></AniamtedText>
+        Ingénieur & formateur en génie civil
       </motion.h1>
 
       <motion.div
@@ -42,7 +47,7 @@ export default function Intro() {
               setTimeOfLastClick(Date.now());
             }}
           >
-            Contact me here{" "}
+            Contactez moi{" "}
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
           </Link>
 
@@ -61,6 +66,13 @@ export default function Intro() {
             target="_blank"
           >
             <BsLinkedin />
+          </Link>
+          <Link
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.facebook.com/AICHOUCHE.BET"
+            target="_blank"
+          >
+            <BsFacebook />
           </Link>
 
           <Link

@@ -1,13 +1,22 @@
 import React from "react";
 import { LuEggFried, LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/hero.png";
-import dera from "@/public/dera.png";
+
 import {
   ATTESTATIONaichouche1,
   ATTESTATIONaichouche2,
   ATTESTATIONaichouche3,
   ATTESTATIONaichouche4,
+  aadl,
+  baraka,
+  dera,
+  naftal,
+  sakan,
+  eclirage,
+  GCB,
 } from "@/lib/utils";
+import cosider from "@/public/companies/logo1.png";
+import BATIMETAL from "@/public/BATIMETAL.jpg";
+import INFRAFER from "@/public/infrafer.png";
 
 export const links = [
   {
@@ -123,7 +132,15 @@ export const projectsData = [
     ],
 
     adress: "CITE LOUZ- COMMUNE THENIA. BOUMERDES",
-    imageUrl: corpcommentImg,
+    imageUrl: aadl,
+  },
+  {
+    title: " مزارع الروبيان_الغذاء الفاخر",
+
+    projects: [" مشروع 1 : مبنى هنجر مشروع مزارع الروبيان_الغذاء الفاخر "],
+    imageUrl: dera,
+    adress: "في مستورة المملكة العربية السعودية",
+    dir: "rtl",
   },
   {
     title: "SARL PAVILLON MODERNE",
@@ -138,7 +155,7 @@ export const projectsData = [
     title: "NAFTAL",
 
     projects: ["Projet : Abri de voiture et Abri de groupe Electrogène "],
-    imageUrl: dera,
+    imageUrl: naftal,
     adress: " site Ouled Mhia, Ain chriki,Elhachimia, Gare omar, beni mansour",
   },
   {
@@ -148,14 +165,7 @@ export const projectsData = [
     imageUrl: dera,
     adress: "ZONE . D'ACTIVITÉ. DÉPOT BAGHAI. KHENCHELA LOT N° 25+26",
   },
-  {
-    title: " مزارع الروبيان_الغذاء الفاخر",
 
-    projects: ["مبنى هنجر مشروع مزارع الروبيان_الغذاء الفاخر : Projet 1"],
-    imageUrl: dera,
-    adress: "في مستورة المملكة العربية السعودية",
-    dir: "rtl",
-  },
   {
     title: " RESIDENCE NARCISSE",
 
@@ -167,7 +177,7 @@ export const projectsData = [
     title: " BANQUE AL BARAKA",
 
     projects: ["Projet : : Résidence en entre-sol , rdc + 7"],
-    imageUrl: dera,
+    imageUrl: baraka,
     adress: "n° 13 rue djabali rabah belouizdad",
   },
   {
@@ -177,7 +187,7 @@ export const projectsData = [
       "Projet 1 : RESIDENCE DOHA 1 2sous sol/ rdc+6+attique Bloc central piscine",
       "Projet 2 : RESIDENCE DOHA 2 2sous sol/ rdc+6+attique",
     ],
-    imageUrl: dera,
+    imageUrl: sakan,
     adress: "dit verte rive commune de bordj el-kiffan, wilaya d'alger",
   },
   {
@@ -205,7 +215,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: eclirage,
   },
   {
     title: "Formation de 12 Jours pour le compte de la société GCB DCM",
@@ -220,7 +230,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: GCB,
   },
   {
     title:
@@ -235,7 +245,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: cosider,
   },
   {
     title:
@@ -252,7 +262,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: cosider,
   },
   {
     title:
@@ -265,7 +275,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: cosider,
   },
   {
     title:
@@ -277,7 +287,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: BATIMETAL,
   },
   {
     title: "Formation de 3 semaines pour le compte de la société INFRAFER",
@@ -289,7 +299,7 @@ export const formatorData = [
     ],
 
     adress: "",
-    imageUrl: corpcommentImg,
+    imageUrl: INFRAFER,
   },
 ] as const;
 

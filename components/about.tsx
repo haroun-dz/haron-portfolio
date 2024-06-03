@@ -12,13 +12,13 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28  text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <div className="container grid items-center justify-center gap-8  lg:grid-cols-2 lg:gap-12">
+      <div className=" grid items-center justify-center gap-8  lg:grid-cols-2 lg:gap-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center lg:text-left">
           <Image
             alt="Profile Picture"
@@ -29,15 +29,20 @@ export default function About() {
           />
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              About Me
+              A propos de moi
             </h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              En tant que individu optimiste et motivé, je possède d'excellentes
-              compétences en communication. Au cours des dernières années, j'ai
-              eu l'occasion de travailler et d'acquérir de l'expérience en
-              collaborant avec des ingénieurs et des professeurs de renommée
-              nationale, notamment au sein de CRMetal, Berep, Setam Blida, ainsi
-              qu'au Ministère de l'Habitat et au Cnerib
+              Bonjour et bienvenue sur mon portfolio. Je suis un ingénieur et
+              formateur en génie civil, passionné par la construction et le
+              développement durable. Avec une solide expérience dans la
+              conception, la gestion de projets et l'enseignement, j'ai eu
+              l'occasion de travailler sur divers projets de grande envergure et
+              de collaborer avec des experts de renom notamment CRMetal, Berep,
+              Setam Blida, ainsi qu'au Ministère de l'Habitat et le Cnerib . Mon
+              objectif est de partager mes connaissances et mon expertise pour
+              contribuer à des projets innovants et durables. Explorez mes
+              réalisations et n'hésitez pas à me contacter pour toute
+              collaboration ou question.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">

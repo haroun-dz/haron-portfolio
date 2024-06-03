@@ -18,7 +18,7 @@ export default function Home() {
       <Skills />
       <SectionDivider />
       <Experience />
-      <Projects heading={"Projucts"} data={projectsData} />
+      <Projects heading={"projet réalisés"} data={projectsData} />
       <Projects heading={"FORMATEUR/CONSULTANT"} data={formatorData} />
 
       <Atestation />
